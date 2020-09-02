@@ -12,28 +12,50 @@ header{
 }
 
 #header{
-    background-color: black;
+    background-color: rgb(204, 204, 204);
     height: 70px;
-    position: fixed;
     width: 100%;
     display: flex;
     justify-content: flex-start;
+    gap: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
 }
 
 #logo{
-    object-fit: cover;
+    object-fit: contain;
+    width: 20%;
+    
+}
+
+#topmenu{
+    align-items: center;
+    justify-items: center;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    
+}
+
+#topmenu:visited{
+    color: black;
 }
    
 
 main{
-    background-color: brown;
+    background-color: rgb(255, 255, 255);
     height: 100vh;
     display: flex;
     justify-content: center;
 }
 
+
+
 footer{
     background: blue;
     height: 200px;
 }
+
 
