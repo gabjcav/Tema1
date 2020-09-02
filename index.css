@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+header{
+    background-color: black;
+    height: 70px;
+    position: fixed;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.logo{
+    object-fit: cover;
+}
+
+main{
+    background-color: brown;
+    height: 100vh;
+}
+
+footer{
+    background: blue;
+    height: 200px;
+}
+
+#headermenu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
