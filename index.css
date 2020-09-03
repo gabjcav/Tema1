@@ -124,15 +124,37 @@ h3{
 
 .politikk{
     background-color: blueviolet;
-    
+    padding: 10px;
+    font-size: 24px;
+   
 }
 
 #klima{
-    background-image: url();
+    background-image: url(https://d3n8a8pro7vhmx.cloudfront.net/mdg/pages/139/attachments/original/1544729904/list_Milj%C3%B8_2x.png?1544729904);
+    background-size: cover;
+    background-position: bottom;
+}
+
+#byer{
+    background-image: url(https://d3n8a8pro7vhmx.cloudfront.net/mdg/pages/161/attachments/original/1544729870/list_Byer_2x.png?1544729870);
+    background-size: cover;
+    background-position: bottom;
+}
+
+#naturogdyr{
+    background-image: url(https://d3n8a8pro7vhmx.cloudfront.net/mdg/pages/166/attachments/original/1564730130/list-naturOgDyr.png?1564730130);
+    background-size: cover;
+    background-position: bottom;
+}
+
+#levendehav{
+    background-image: url(https://d3n8a8pro7vhmx.cloudfront.net/mdg/pages/155/attachments/original/1544729815/list_Hav_2x.png?1544729815);
+    background-size: cover;
+    background-position: bottom;
 }
 
 footer{
-    background: blue;
+    background: rgb(214, 214, 214);
     height: 200px;
 }
 
