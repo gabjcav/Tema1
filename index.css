@@ -4,6 +4,7 @@
     text-decoration: none;
     font-family: sans-serif;
     box-sizing: border-box;
+    color: darkgray;
 }
 
 header{
@@ -48,7 +49,7 @@ a:visited{
 main{
     
     min-height: 100vh;
-    background-color: aqua;
+    
 }
 
 #bigpic{
@@ -96,7 +97,7 @@ h1{
     margin-top: 50px;
     font-weight: 500;
     font-size: 42px;
-    
+    color: rgb(105, 105, 105);
 }
 
 h2{
@@ -104,6 +105,11 @@ h2{
     margin-bottom: 50px;
     font-weight: 300;
     font-size: 24px;
+}
+
+h3{
+    color:white;
+    font-weight: 300;
 }
 
 #politikkomrader{
@@ -119,6 +125,10 @@ h2{
 .politikk{
     background-color: blueviolet;
     
+}
+
+#klima{
+    background-image: url();
 }
 
 footer{
