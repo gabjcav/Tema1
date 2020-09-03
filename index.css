@@ -33,6 +33,7 @@ header{
     width: 100px;
     margin-left: 10px;
     margin-right: 10px;
+    font-weight: 500;
 }
 
 .flex-item:hover {
@@ -94,6 +95,8 @@ article div p{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 400;
+    letter-spacing: .3px;
 }
 
 h1,h2{
