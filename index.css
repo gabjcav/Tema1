@@ -2,14 +2,14 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     color: darkgray;
 }
 
 header{
     height: 70px;
-    
+    margin-top: 50px;
     
     
 }
@@ -26,12 +26,18 @@ header{
 
 #logo{
     margin-left: 0;
+    
 }
 
 .flex-item{
     width: 100px;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.flex-item:hover {
+    color: rgb(121, 121, 121);
+    
 }
 
 .container{
@@ -58,6 +64,7 @@ main{
     width: 100%;
     justify-content: center;
     margin-top: 100px;
+    
 }
 
 article img{
@@ -128,6 +135,7 @@ h3{
     font-size: 24px;
    
 }
+
 
 #klima{
     background-image: url(https://d3n8a8pro7vhmx.cloudfront.net/mdg/pages/139/attachments/original/1544729904/list_Milj%C3%B8_2x.png?1544729904);
