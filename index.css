@@ -29,6 +29,26 @@ header{
     margin-right: 10px;
 }
 
+#bigpic{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    justify-content: center;
+}
+
+article img{
+    width: 150%;
+     
+}
+
+article p{
+    background-color: blueviolet;
+    width: 70%;
+    justify-self: self-end;
+    text-align: center;
+    
+}
+
 #logo{
     margin-left: 0;
 }
