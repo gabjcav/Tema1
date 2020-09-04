@@ -28,16 +28,21 @@
 
      <main class="container">
          <div id="form-container">
-             <label for="fnavn">Fornavn</label>
-            <input type="text" id="fnavn" name="fornavn" >
+             <form action="action_page.php">
+                <label for="fnavn">Fornavn</label>
+                <input type="text" id="fnavn" name="fornavn" placeholder="Kari">
 
-            <label for="enavn">Etternavn</label>
-            <input type="text" id="enavn" name="etternavn">
+                <label for="enavn">Etternavn</label>
+                <input type="text" id="enavn" name="etternavn" placeholder="Nordmann">
 
-            <label for="subject">Hva lurer du på?</label>
-            <textarea name="subject" id="subject" placeholder="Skriv noe"></textarea>
+                <label for="email">Epost</label>
+                <input type="text" id="email" name="email" placeholder="kari.nordmann@hotmail.com">
 
-            <input type="submit" value="Send inn">
+                <label for="subject">Hva lurer du på?</label>
+                <textarea name="subject" id="subject" placeholder="Skriv her"></textarea>
+
+                <input type="submit" value="Send inn">
+            </form>
          </div>
      </main>
 </body>
