@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    color: darkgray;
+}
+
+header{
+    height: 70px;
+    margin-top: 50px;
+    
+    
+}
+
+#navigation{
+    
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    
+}
+
+#logo{
+    margin-left: 0;
+    
+}
+
+.flex-item{
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 400;
+}
+
+.flex-item:hover {
+    color: rgb(99, 99, 99);
+    
+}
+
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form.container{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+}

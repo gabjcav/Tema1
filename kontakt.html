@@ -7,7 +7,7 @@
     <title>Kontakt</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./kontakt.css">
 </head>
 <body>
     <header>
@@ -20,10 +20,25 @@
          
              <a class="flex-item" href="./kontakt.html">Kontakt</a>
              <a class="flex-item" href="./om-oss.html">Om oss</a>
-             <a class="flex-item" href="">Bli med</a>
+             <a class="flex-item" href="">Bli medlem</a>
  
        </nav>
         
      </header>
+
+     <main class="container">
+         <div id="form-container">
+             <label for="fnavn">Fornavn</label>
+            <input type="text" id="fnavn" name="fornavn" >
+
+            <label for="enavn">Etternavn</label>
+            <input type="text" id="enavn" name="etternavn">
+
+            <label for="subject">Hva lurer du på?</label>
+            <textarea name="subject" id="subject" placeholder="Skriv noe"></textarea>
+
+            <input type="submit" value="Send inn">
+         </div>
+     </main>
 </body>
 </html>
