@@ -169,6 +169,8 @@ footer{
     height: 200px;
 }
 
+
+
 /* Under her begynner kontakt-siden */
 
 .form.container{
@@ -186,6 +188,7 @@ input[type=text], select, textarea {
     margin-top: 6px; 
     margin-bottom: 16px; 
     resize: vertical;
+    
   }
 
   input[type=submit]{
@@ -204,6 +207,8 @@ input[type=text], select, textarea {
   #fnavn, #enavn, #email{
       margin-bottom: 30px;
   }
+
+
 
   #subject{
       max-height: 300px;
