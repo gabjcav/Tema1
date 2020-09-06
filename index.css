@@ -5,13 +5,20 @@
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     color: darkgray;
+    
+}
+
+body{
+    background-color: whitesmoke;
 }
 
 header{
     height: 70px;
     margin-top: 50px;
     
-    
+    background-color: whitesmoke;
+    position: sticky;
+    top: 0;
 }
 
 #navigation{
@@ -20,7 +27,7 @@ header{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    
+    padding: 10px;
     
 }
 
@@ -133,7 +140,7 @@ h3{
 }
 
 .politikk{
-    background-color: blueviolet;
+   
     padding: 10px;
     font-size: 24px;
    
@@ -165,7 +172,6 @@ h3{
 }
 
 footer{
-    background: rgb(255, 255, 255);
     height: 200px;
 }
 
@@ -188,6 +194,7 @@ input[type=text], select, textarea {
     margin-top: 6px; 
     margin-bottom: 16px; 
     resize: vertical;
+    background-color: white;
     
   }
 
@@ -204,6 +211,10 @@ input[type=text], select, textarea {
         background-color: rgb(123, 163, 53);
     }
 
+    label{
+        color: black;
+    }
+
   #fnavn, #enavn, #email{
       margin-bottom: 30px;
   }
@@ -217,4 +228,8 @@ input[type=text], select, textarea {
 
   #contactheader{
       margin-bottom: 50px;
+  }
+
+  #contactbody{
+      background-color: whitesmoke;
   }
