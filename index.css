@@ -1,3 +1,5 @@
+/* Noen av elementene her gjelder for alle tre .html sidene (f.eks .container og #navigation) */
+
 *{
     padding: 0;
     margin: 0;
@@ -236,3 +238,25 @@ input[type=text], select, textarea {
   #contactbody{
       background-color: whitesmoke;
   }
+
+  /* Under her begynner Om oss siden */
+
+#picturecontainer{
+  
+}
+
+#picturecontainer2{
+    justify-content: center;
+    align-items: center;
+}
+#aboutpic{
+  width: 100%;
+}
+
+
+
+#aboutmain{
+    background-color: blue;
+
+    margin-top: 50px;
+}
