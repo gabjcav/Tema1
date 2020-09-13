@@ -24,7 +24,6 @@ header{
 
 
 #navigation{
-    
     height: 80px;
     display: flex;
     justify-content: flex-start;
@@ -35,7 +34,6 @@ header{
 
 #logo{
     margin-left: 0;
-    
 }
 
 
@@ -44,11 +42,11 @@ header{
     width: 100px;
     margin-left: 10px;
     margin-right: 10px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .flex-item:hover {
-    color: rgb(99, 99, 99);
+    color: rgb(65, 65, 65);
     
 }
 
@@ -59,18 +57,16 @@ header{
 }
 
 a{
-    color: black;
+  color:rgb(105, 105, 105);
 }
 
 a:visited{
-    color: black;
+  color:rgb(105, 105, 105);
 }
    
 
 main{
-    
-    min-height: 100vh;
-    
+    min-height: 100vh; 
 }
 
 #bigpic{
@@ -79,7 +75,6 @@ main{
     width: 100%;
     justify-content: center;
     margin-top: 50px;
-    
 }
 
 article img{
@@ -101,8 +96,6 @@ article div p{
     font-size: 36px;
     padding: 10px;
     font-weight: 200;
-    
-    
 }
 
 .toptext{
@@ -113,9 +106,7 @@ article div p{
     letter-spacing: .3px;
 }
 
-h1,h2{
-    margin-left: 20px;
-}
+
 
 h1{
     margin-top: 50px;
@@ -133,14 +124,15 @@ h2{
 
 h3{
     color:white;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 h4{
-    color: rgb(255, 255, 255);
-    font-weight: 400;
-    font-size: 1.4rem;
-    margin-left: 20px;
+    align-self: center;
+    font-weight: 500;
+    font-size: 40px;
+    padding: 20px;
+    color: white;
 }
 
 #politikkomrader{
@@ -156,7 +148,7 @@ h4{
 
 .politikk{
    
-    padding: 10px;
+    padding: 15px;
     font-size: 24px;
    
 }
@@ -186,28 +178,46 @@ h4{
     background-position: bottom;
 }
 
-.follow {
-    padding-top: 20px;
+
+footer{
+    background-color: #67962d;
 }
 
 #socialmedia {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    gap: 20px;
+    
 }
 
 #socialmedia img {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     padding: 10px;
+    box-shadow: 0 0 3 5;
+    
 }
 
 #twitter img {
-    height: 150px;
-    width: 150px;
+    height: 130px;
+    width: 130px;
 }
 
 
+#facebooklogo:hover{
+    transform: scale(1.05);
+}
+
+#twitterlogo:hover{
+    transform: scale(1.04);
+}
+
+#instagramlogo:hover{
+
+    transform: scale(1.04);
+}
 
 
 
@@ -217,6 +227,7 @@ h4{
     display: grid;
     grid-template-rows: repeat(4, 1fr);
     
+   
 }
 
 input[type=text], select, textarea {
@@ -232,7 +243,7 @@ input[type=text], select, textarea {
     
   }
 
-  input[type=submit]{
+input[type=submit]{
       background-color: #67962d;
       padding: 10px;
       color: white;
@@ -241,11 +252,11 @@ input[type=text], select, textarea {
       border-bottom-right-radius: 10px;
   }
 
-    input[type=submit]:hover {
+input[type=submit]:hover {
         background-color: rgb(123, 163, 53);
     }
 
-    label{
+label{
         color: black;
     }
 
@@ -255,37 +266,44 @@ input[type=text], select, textarea {
 
 
 
-  #subject{
+#subject{
       max-height: 300px;
       min-height: 40px;
   }
 
-  #contactheader{
+#contactheader{
       margin-bottom: 50px;
   }
 
-  #contactbody{
+#contactbody{
       background-color: whitesmoke;
   }
 
   /* Under her begynner Om oss siden */
 
 #picturecontainer{
-  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #67962d;
+  width: 100%;
+  height: 300px;
+    
 }
 
-#picturecontainer2{
-    justify-content: center;
-    align-items: center;
-}
+
 #aboutpic{
   width: 100%;
+  height: 100%;
 }
 
 
 
 #aboutmain{
-    background-color: blue;
+    
 
-    margin-top: 50px;
+    margin-top: 100px;
+}
+
+.var-organisasjon{
+    margin-top: 90px;
 }
