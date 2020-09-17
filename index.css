@@ -374,8 +374,12 @@ label{
     list-style-type: none;
 }
 
+.sideorglink{
+    color:  #67962d ;
+    font-weight: 400;
+}
 
-#sideorg ul li p a:visited{
+.sideorglink:visited{
     color: #67962d;
 }
 
