@@ -42,7 +42,7 @@ header{
     width: 100px;
     margin-left: 10px;
     margin-right: 10px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .flex-item:hover {
@@ -138,10 +138,10 @@ h4{
 #politikkomrader{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-   
     margin-bottom: 100px;
     gap: 20px;
     height: 420px;
+    
    
 }
 
@@ -209,7 +209,7 @@ footer{
 }
 
 #twitterlogo:hover{
-    transform: scale(1.05);
+    transform: scale(1.04);
 }
 
 #instagramlogo:hover{
@@ -217,7 +217,25 @@ footer{
     transform: scale(1.05);
 }
 
+#footerinfo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    justify-items: center;
+}
 
+
+.koninfofoot{
+    color: whitesmoke;
+    font-size: 1.2rem;
+}
+
+#infoleft, #infoleft2{
+    
+}
 
 /* Under her begynner kontakt-siden */
 
@@ -304,4 +322,18 @@ label{
 
 .var-organisasjon{
     margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+.var-organisasjon h1{
+    margin-bottom: 25px;
+}
+
+.aboutptext{
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+#landsmote h1{
+    margin-bottom: 25px;
 }
