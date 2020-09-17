@@ -330,10 +330,33 @@ label{
 }
 
 .aboutptext{
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     font-size: 1.4rem;
+    font-weight: 300;
 }
 
 #landsmote h1{
     margin-bottom: 25px;
+    margin-top: 70px;
+}
+
+#landsstyret h1{
+    margin-bottom: 25px;
+    margin-top: 70px;
+}
+
+#sideorg h1{
+    margin-bottom: 25px;
+    margin-top: 70px;
+}
+
+#sideorg ul{
+   
+    margin-bottom: 100px;
+    list-style-type: none;
+}
+
+
+#sideorg ul li p a:visited{
+    color: #67962d;
 }
