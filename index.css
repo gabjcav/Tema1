@@ -187,8 +187,6 @@ footer{
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 20px;
-    
 }
 
 #socialmedia img {
@@ -205,6 +203,7 @@ footer{
 
 
 #facebooklogo:hover{
+    
     transform: scale(1.05);
 }
 
@@ -231,11 +230,10 @@ footer{
 .koninfofoot{
     color: whitesmoke;
     font-size: 1.2rem;
+    font-weight: 300;
 }
 
-#infoleft, #infoleft2{
-    
-}
+
 
 /* Under her begynner kontakt-siden */
 
@@ -306,6 +304,13 @@ label{
     
 }
 
+#picturecontainer h1{
+    align-self: center;
+    font-weight: 500;
+    font-size: 40px;
+    padding: 20px;
+    color: whitesmoke;
+}
 
 #aboutpic{
   width: 100%;
@@ -325,8 +330,11 @@ label{
     margin-bottom: 30px;
 }
 
-.var-organisasjon h1{
+.var-organisasjon h2{
     margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 42px;
+    color: rgb(105, 105, 105);
 }
 
 .aboutptext{
@@ -335,19 +343,28 @@ label{
     font-weight: 300;
 }
 
-#landsmote h1{
+#landsmote h2{
     margin-bottom: 25px;
     margin-top: 70px;
+    font-weight: 500;
+    font-size: 42px;
+    color: rgb(105, 105, 105);
 }
 
-#landsstyret h1{
+#landsstyret h2{
     margin-bottom: 25px;
     margin-top: 70px;
+    font-weight: 500;
+    font-size: 42px;
+    color: rgb(105, 105, 105);
 }
 
-#sideorg h1{
+#sideorg h2{
     margin-bottom: 25px;
     margin-top: 70px;
+    font-weight: 500;
+    font-size: 42px;
+    color: rgb(105, 105, 105);
 }
 
 #sideorg ul{
@@ -360,3 +377,4 @@ label{
 #sideorg ul li p a:visited{
     color: #67962d;
 }
+
